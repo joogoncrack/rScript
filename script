@@ -283,4 +283,10 @@ end)
     local Credits = Credits:NewSection("Credits")
     
     Credits:NewButton("Made by joog", "", function()
+    game.StarterGui:SetCore("SendNotification", {
+                   Title = "MADE BY JOOG",
+                   Text = "Made by joog",
+                   Duration = 5
+        
+                   })
         end)
